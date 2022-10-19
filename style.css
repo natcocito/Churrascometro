@@ -1,0 +1,127 @@
+body{
+  background-image: url(./assets/fundo.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  
+  h1 {font-size: 30px;
+    text-align: center;
+    color: white;
+}
+  
+  h2 {font-size: 20px;}
+  
+  p {font-size: 20px;}
+  
+  label {font-size: 20px;}
+  
+  input {font-size: 20px;}
+  
+  button {font-size: 25px;}
+  
+.container {
+    max-width: 100%;
+    margin: 3%;
+  }
+  
+.box-calculo {
+    margin: auto;
+    max-width: 40%;
+    background: #86b7e8;
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+.box-calculo img {
+    width: 20rem;
+    margin-top: 8px;
+  }
+  
+.form {
+    margin-top: 2rem;
+    width: 80%;
+  }
+  
+.form .input-block {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+.box-calculo label {
+    margin-bottom: 1rem;
+    font-family: 'Courier New', Courier, monospace
+  }
+  
+.box-calculo input {
+    width: 100%;
+    height: 3rem;
+    background: whitesmoke;
+    border: 0.1rem solid whitesmoke;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    text-align: center;
+  }
+  
+.box-calculo input::placeholder {
+    color: #9c98a6;
+  }
+  
+.box-calculo button {
+    width: 15rem;
+    height: 4rem;
+    background: #c99aa0;
+    border-radius: 3rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer
+}
+  
+.box-calculo button:hover {
+    background: #4d9385;
+  }
+
+  .total {
+    margin: auto;
+    max-width: 40%;
+    background: #c99aa0;
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .result-info {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: black;
+    width: 0 auto;
+    margin-top: 1.5rem;
+  }
+  
+  .result-block {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+  }
+  
+  .result-block p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white
+  }
+
+
+
